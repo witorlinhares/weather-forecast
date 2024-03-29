@@ -110,6 +110,7 @@ body{
         padding: 25px;
         margin: 25px;
         -ms-zoom-animation: none;
+        box-sizing: border-box;
     }
 
     body{
