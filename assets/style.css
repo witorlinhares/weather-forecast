@@ -127,6 +127,8 @@ body{
         background-repeat:no-repeat;
         background-position-y: top;
         display: flex;
+        -ms-zoom-animation: none;
+        -ms-zoom: none;
 }
 
     .input-city{
