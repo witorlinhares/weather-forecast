@@ -113,10 +113,10 @@ body{
     }
 
     body{
+        width: 100vw;
         background-size: 600%;
         background-repeat:no-repeat;
         background-position-y: top;
-
         display: flex;
         opacity: 100%;
     }
