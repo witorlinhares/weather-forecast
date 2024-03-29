@@ -109,6 +109,8 @@ body{
         flex-direction: column;
         padding: 25px;
         margin: 25px;
+        -ms-zoom-animation: none;
+    
     }
 
     body{
@@ -118,6 +120,7 @@ body{
         background-position-y: top;
         display: flex;
         box-sizing: border-box;
+        -ms-zoom-animation: none;
     }
 
     .input-city{
