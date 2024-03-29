@@ -115,10 +115,7 @@ body{
     .bigger-box{
         flex-direction: column;
         padding: 25px;
-        margin: 25px;
-        -ms-zoom-animation: none;
-        -ms-zoom: none;
-    
+        margin: 25px;    
     }
 
     body{
@@ -127,12 +124,12 @@ body{
         background-repeat:no-repeat;
         background-position-y: top;
         display: flex;
-        -ms-zoom-animation: none;
-        -ms-zoom: none;
 }
 
     .input-city{
         padding: 10px 10px 10px;
+        -ms-zoom-animation: none;
+        -ms-zoom: none;
     }
 
     .search{
