@@ -115,8 +115,6 @@ body{
     .bigger-box{
         flex-direction: column;
         padding: 25px;
-        -ms-zoom-animation: none;
-        -ms-zoom: none;
     }
 
     body{
@@ -125,6 +123,8 @@ body{
         background-repeat:no-repeat;
         background-position-y: top;
         display: flex;
+        -ms-zoom-animation: none;
+        -ms-zoom: none;
 }
 
     .input-city{
