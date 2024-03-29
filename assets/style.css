@@ -17,6 +17,11 @@ body{
     background-repeat: no-repeat;
 }
 
+.time{
+    display: flex;
+    flex-direction: column;
+}
+
 /*bigger box*/
 .bigger-box{
     padding: 50px;
@@ -37,6 +42,8 @@ body{
     background: #fff;
     opacity: none;
     border-radius: 20px 0px 0px 20px;
+    -ms-zoom-animation: none;
+    -ms-zoom: none;
 }
 
 /*button search*/
@@ -110,6 +117,7 @@ body{
         padding: 25px;
         margin: 25px;
         -ms-zoom-animation: none;
+        -ms-zoom: none;
     
     }
 
@@ -119,13 +127,10 @@ body{
         background-repeat:no-repeat;
         background-position-y: top;
         display: flex;
-        box-sizing: border-box;
-        -ms-zoom-animation: none;
-    }
+}
 
     .input-city{
         padding: 10px 10px 10px;
-        -ms-zoom-animation: none;
     }
 
     .search{
