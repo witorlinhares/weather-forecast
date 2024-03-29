@@ -109,6 +109,7 @@ body{
         flex-direction: column;
         padding: 25px;
         margin: 25px;
+        -ms-zoom-animation: none;
     }
 
     body{
