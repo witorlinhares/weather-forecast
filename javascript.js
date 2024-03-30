@@ -1,4 +1,26 @@
 
+//clock
+const h = document.getElementById('hour');
+const m = document.getElementById('minutes');
+const ss = document.getElementById('seconds');
+
+const relogio = setInterval(function time() {
+    let dateToday = new Date();
+    let hs = dateToday.getHours();
+    let ms = dateToday.getMinutes();
+    let sss = dateToday.getSeconds();
+
+    if (hs < 10) hs = '0' + hs;
+
+    if (ms < 10) min = '0' + ms;
+
+    if (sss < 10) sss = '0' + sss;
+
+    h.textContent = hs;
+    m.textContent = ms;
+    ss.textContent = sss;
+
+})
 
 //key api
 const key ="c0b197ed1de5f5db2a3c1241745a50b9"
