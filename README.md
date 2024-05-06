@@ -23,4 +23,3 @@ https://comoestaotempo.netlify.app/
 
 ![img](https://github.com/witorlinhares/weather-forecast/assets/154279407/f235086d-d6fc-4514-8e77-b5ef0a7fa0b6)
 <br>
-<p>Credits Rodolfo Mori</p>
